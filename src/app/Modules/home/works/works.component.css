@@ -1,0 +1,113 @@
+.RTL_content {
+    direction: rtl;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.work_area {
+    padding: 110px 0 90px 0;
+    background: #231c24;
+  }
+  
+  @media (max-width: 767px) {
+    .download_area {
+      padding: 90px 0;
+    }
+  }
+  
+  .work_area .download_text h3 {
+    font-size: 36px;
+    color: #fff;
+    line-height: 46px;
+    margin-bottom: 60px;
+  }
+  
+  @media (max-width: 767px) {
+    .work_area .download_text h3 {
+      font-size: 25px;
+      color: #fff;
+      line-height: 40px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .work_area .download_left {
+    margin-bottom: 30px;
+  }
+  
+  .work_area .download_left p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #C9C9C9;
+    margin: 20px 0;
+  }
+  
+  .work_area .download_left .boxed-btn3-line {
+    margin-top: 28px;
+  }
+  
+  .work_area .progress_skills .single_progress {
+    margin-bottom: 33px;
+  }
+  
+  .work_area .progress_skills .single_progress .label {
+    margin-bottom: 16px;
+  }
+  
+  .work_area .progress_skills .single_progress .label span {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+  }
+  
+  .work_area .progress_skills .single_progress .progress {
+    height: 6px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+  }
+  
+  .work_area .progress_skills .single_progress .progress .progress-bar {
+    background: #DB9A64;
+    border-radius: 5px;
+  }
+
+  
+.boxed-btn3-line {
+  color: #DB9A64 !important;
+  display: inline-block;
+  padding: 17px 49px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  border: 1px solid #DB9A64;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  text-align: center;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.boxed-btn3-line:hover {
+  color: #fff !important;
+  border: 1px solid transparent;
+  background: #DB9A64;
+}
+
+.boxed-btn3-line:focus {
+  outline: none;
+}
+
+.boxed-btn3-line.large-width {
+  width: 220px;
+}

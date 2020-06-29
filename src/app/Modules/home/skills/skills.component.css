@@ -1,0 +1,84 @@
+a:hover {
+ text-decoration: none;
+} 
+
+.skills_area {
+    background: #1c191b;
+    padding-bottom: 90px;
+    padding-top: 120px;
+  }
+  
+  .skills_area.colord_bg {
+    background: #311E25;
+  }
+  
+  .skills_area .single_service {
+    border: 1px solid #6B4B40;
+    padding: 45px 30px;
+    margin-bottom: 30px;
+  }
+  
+  .skills_area .single_service h3 {
+    color: #DB9A64;
+    margin-top: 22px;
+    margin-bottom: 11px;
+    font-weight: 400;
+  }
+  
+  .skills_area .single_service p {
+    font-size: 16px;
+    color: #C9C9C9;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  
+.section_title h3 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  position: relative;
+  z-index: 0;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+  .section_title h3 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section_title h3 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section_title h3 br {
+    display: none;
+  }
+}
+
+.section_title p {
+  font-size: 20px;
+  color: #F91842;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+  .section_title p br {
+    display: none;
+  }
+}
+
+.section_title h4 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #001D38;
+  padding-bottom: 21px;
+}

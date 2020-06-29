@@ -1,0 +1,61 @@
+<div class="work_area" id="work">
+    <div class="container" [class.RTL_content]="this.languageService.getCurrentLanguage() == 'ar'">
+        <div class="row">
+            <div class="col-xl-10">
+                <div class="download_text">
+                    <h3>{{'Work_header' | translateTo:this.languageService.getCurrentLanguage()}}</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="download_left">
+                    <p>{{'Work_body_1' | translateTo:this.languageService.getCurrentLanguage()}}</p>
+                    <p>{{'Work_body_2' | translateTo:this.languageService.getCurrentLanguage()}}</p>
+                    <a href="assets/pdf/HATTI ABDELDJALIL OUSSAMA 2020.pdf" class="boxed-btn3-line">{{'Download CV' | translateTo:this.languageService.getCurrentLanguage()}}</a>
+                    <a (click)="scroll('skills')" class="boxed-btn3-line">{{'View Skills' | translateTo:this.languageService.getCurrentLanguage()}}</a>
+                </div>
+            </div>
+            <div class="col-lg-5 offset-lg-1 col-md-6">
+                <div class="progress_skills">
+                    <div class="single_progress">
+                        <div class="label d-flex justify-content-between">
+                            <span>{{'Web Backend Development' | translateTo:this.languageService.getCurrentLanguage()}}</span>
+                        <span>85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="single_progress">
+                        <div class="label d-flex justify-content-between">
+                            <span>{{'Web Frontend Development' | translateTo:this.languageService.getCurrentLanguage()}}</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="single_progress">
+                        <div class="label d-flex justify-content-between">
+                                <span>{{'Desktop Application Development' | translateTo:this.languageService.getCurrentLanguage()}}</span>
+                                <span>75%</span>
+                            </div>
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="single_progress">
+                        <div class="label d-flex justify-content-between">
+                                <span>{{'Android application development' | translateTo:this.languageService.getCurrentLanguage()}}</span>
+                                <span>50%</span>
+                            </div>
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

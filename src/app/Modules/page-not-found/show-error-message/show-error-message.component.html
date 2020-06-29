@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-md-8"></div>
+    <div class="col-md-2">
+        <button class="btn btn-info btn-block" (click)="GoBack()">
+            {{'Retour' | translateTo:this.languageService.getCurrentLanguage()}}
+        </button>
+    </div>
+    <div class="col-md-2">
+        <button class="btn btn-danger btn-block" onclick="location.href = 'login';">
+            {{'Sortir' | translateTo:this.languageService.getCurrentLanguage()}}
+        </button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="error-template">
+            <div class="error-details">
+                {{ErrorStatus}} : {{ErrorMessage[ErrorStatus][this.languageService.getCurrentLanguage()]}}
+            </div>
+        </div>
+    </div>
+</div>

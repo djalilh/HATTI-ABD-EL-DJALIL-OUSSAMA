@@ -1,0 +1,33 @@
+<header>
+    <div class="header-area ">
+        <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid ">
+                <div class="header_bottom_border">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-2"> </div>
+                        <div class="col-xl-6 col-lg-7">
+                            <div class="main-menu d-lg-block">
+                                <nav>
+                                    <ul id="navigation" [class.RTL_Menu]="this.languageService.getCurrentLanguage() == 'ar'" >
+                                        <li><a class="pointer_link" href="/">{{'Home' | translateTo:this.languageService.getCurrentLanguage()}}</a></li>
+                                        <li><a class="pointer_link" (click)="scroll('work')">{{'Work' | translateTo:this.languageService.getCurrentLanguage()}}</a></li>
+                                        <li><a class="pointer_link" (click)="scroll('skills')">{{'Skills' | translateTo:this.languageService.getCurrentLanguage()}}</a></li>
+                                        <li><a class="pointer_link" >{{'Languages' | translateTo:this.languageService.getCurrentLanguage()}} <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu" >
+                                                <li><a class="pointer_link" (click)="SwithToEnglish()" >{{'English' | translateTo:this.languageService.getCurrentLanguage()}}</a></li>
+                                                <li><a class="pointer_link" (click)="SwithToFrench()" >{{'French' | translateTo:this.languageService.getCurrentLanguage()}}</a></li>
+                                                <li><a class="pointer_link" (click)="SwithToArabe()" > {{'Arabic' | translateTo:this.languageService.getCurrentLanguage()}}</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="pointer_link" (click)="scroll('contacts')">{{'Contacts' | translateTo:this.languageService.getCurrentLanguage()}}</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
