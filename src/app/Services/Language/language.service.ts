@@ -5,9 +5,9 @@ import { Injectable } from '@angular/core';
 })
 export class LanguageService {
 
-
-  currentLanguage: string = 'en';
-
+  
+  //currentLanguage: string = 'en';
+  currentLanguage: string = navigator.language.substr(0,2);
   constructor() { }
 
   public getCurrentLanguage(): string{

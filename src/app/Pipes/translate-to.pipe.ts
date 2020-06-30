@@ -144,9 +144,12 @@ export class TranslateToPipe implements PipeTransform {
       'en' : 'View Skills',
       'fr' : 'Voir les compétences',
       'ar' : 'عرض المهارات'
+    },
+    'View Works' : {
+      'en' : 'View Works',
+      'fr' : 'Voir le Métier',
+      'ar' : 'عرض المهمة'
     }
-
-
   }
 
 
