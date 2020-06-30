@@ -6,6 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class TranslateToPipe implements PipeTransform {
 
   transform(value: string, lang: string): string {
+    if(lang != 'en' && lang != 'fr' && lang != 'ar') lang = 'en';
     if(this.values[value] != null && this.values[value] != ''){
       return this.values[value][lang];
     }else{
@@ -23,7 +24,7 @@ export class TranslateToPipe implements PipeTransform {
     'Work' : {
       'en' : 'Work',
       'fr' : 'Métier',
-      'ar' : 'المهمة'
+      'ar' : 'المهنة'
     },
     'Skills' : {
       'en' : 'Skills',
@@ -148,7 +149,7 @@ export class TranslateToPipe implements PipeTransform {
     'View Works' : {
       'en' : 'View Works',
       'fr' : 'Voir le Métier',
-      'ar' : 'عرض المهمة'
+      'ar' : 'عرض المهنة'
     }
   }
 
